@@ -1,0 +1,183 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+    <head>
+        <!-- meta data -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        
+        <!-- title of site -->
+        <title>Learnify</title>
+
+        <!-- For favicon png -->
+		<link rel="shortcut icon" type="image/icon" href="assets/logo/favicon.ico"/>
+
+        <link rel="stylesheet" href="assets/css/style.css">
+        <!-- For displaying footer icons(fontawesome)-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+    </head>
+	
+	<body class="page-template page-index">
+		
+		<header class="header-section">
+            <div class="container">
+                <div class="flex-block row">
+                    <div class="logo">
+                        <div class="custom-logo">
+                            <a href="index.html"><h3>Learnify</h3></a>
+                        </div>
+                    </div>
+                    <nav class="menu">
+                        <ul class="nav-menu-list">
+                            <li class="nav-meni-item active-m"><a href="index.html">Home</a></li>
+                            <li class="nav-meni-item"><a href="about.html">About Us</a></li>
+                            <li class="nav-meni-item"><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+		</header>
+
+        <section class="page-section banner-img">
+            <div class="container-full">
+                <img src="assets/images/Banner.png">
+            </div>
+        </section>
+		
+        <section class="page-section sect1">
+            <div class="container">
+                <div class="flex-block row">
+                   <div class="section-title">
+                      <h2 class="animate_ _ _animated animate_headShake animate_infinite">Projects</h2>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur suscipit erat a placerat vehicula. Morbi suscipit magna vitae pharetra cursus.</p>
+                    </div>
+                </div>
+                <div class="flex-block row">
+                    <div class="section-tabs">
+                        <div class="tab">
+                            <button class="tablinks active" onclick="openCity(event, 'AllCategories')">All Categories</button>
+                            <button class="tablinks" onclick="openCity(event, 'Bilders')">Photos</button>
+                            <button class="tablinks" onclick="openCity(event, 'Videos')">Videos</button>
+                          </div>
+                          
+                          <div id="AllCategories" class="tabcontent" style="display: block;">
+                            <div class="flex-block row box col3">
+                                <div class="flex-block col category">
+                                    <a href="#"><h3>Photos</h3></a>
+                                </div>
+                                <div class="flex-block col category">
+                                    <a href="#"><h3>Videos</h3></a>
+                                </div>
+                                <div class="flex-block col category">
+                                    <a href="#"><h3>Category 3</h3></a>
+                                </div>
+                            </div>
+                          </div>
+                          
+                          <div id="Bilders" class="tabcontent">
+                            <div class="flex-block row box col3">
+                                <div class="flex-block col video">
+                                    <img src="assets/images/Group.jpg">
+                                </div>
+                                <div class="flex-block col video">
+                                    <img src="assets/images/Group.jpg">
+                                </div>
+                                <div class="flex-block col video">
+                                    <img src="assets/images/Group.jpg">
+                                </div>
+                            </div>
+                          </div>
+                          
+                          <div id="Videos" class="tabcontent">
+                            <div class="flex-block row box col3">
+                                <div class="flex-block col video">
+                                    <iframe width="1236" height="695" src="https://www.youtube.com/embed/MLpWrANjFbI" title="Elementor video placeholder" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                </div>
+                                <div class="flex-block col video">
+                                    <iframe width="1236" height="695" src="https://www.youtube.com/embed/MLpWrANjFbI" title="Elementor video placeholder" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                </div>
+                                <div class="flex-block col video">
+                                    <iframe width="1236" height="695" src="https://www.youtube.com/embed/MLpWrANjFbI" title="Elementor video placeholder" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                            <div class="flex-block row box col3">
+                                <div class="flex-block col video">
+                                    <iframe width="1236" height="695" src="https://www.youtube.com/embed/MLpWrANjFbI" title="Elementor video placeholder" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                </div>
+                                <div class="flex-block col video">
+                                    <iframe width="1236" height="695" src="https://www.youtube.com/embed/MLpWrANjFbI" title="Elementor video placeholder" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                </div>
+                                <div class="flex-block col video">
+                                    <iframe width="1236" height="695" src="https://www.youtube.com/embed/MLpWrANjFbI" title="Elementor video placeholder" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                          </div>
+                          <!-- Javascript for tabs(change tabs) to be changed variable name -->
+                          <!-- Javascript for tabs(change tabs) see button tag openCity variable name -->
+                          <script>
+                          function openCity(evt, cityName) {
+                            var i, tabcontent, tablinks;
+                            tabcontent = document.getElementsByClassName("tabcontent");
+                            for (i = 0; i < tabcontent.length; i++) {
+                              tabcontent[i].style.display = "none";
+                            }
+                            tablinks = document.getElementsByClassName("tablinks");
+                            for (i = 0; i < tablinks.length; i++) {
+                              tablinks[i].className = tablinks[i].className.replace(" active", "");
+                            }
+                            document.getElementById(cityName).style.display = "block";
+                            evt.currentTarget.className += " active";
+                          }
+                          </script>
+                    </div>
+                </div>
+            </div>
+        </section>
+		
+		<footer id="footer" class="footer-section">
+			<div class="container">
+                <div class="flex-block row">
+                    <div class="soc-media">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <i  class="fa fa-facebook" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i  class="fa fa-twitter" aria-hidden="true"></i>
+                                </a>                              
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i  class="fa fa-linkedin" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i  class="fa fa-instagram" aria-hidden="true"></i>
+                                </a>
+                            </li>                                            
+                        </ul>
+                    </div>
+                    <nav class="menu">
+                        <ul class="nav-menu-list">
+                            <li class="nav-meni-item"><a href="about.html">About Us</a></li>
+                            <li class="nav-meni-item"><a href="contact.html">Contact Us</a></li>
+                        </ul>
+                    </nav>
+                    <div class="copyright">
+                        <p>© Copyright Learnify 2023-2024</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+		
+		
+    </body>
+	
+</html>
